@@ -34,7 +34,11 @@ ActiveRecord::Schema.define(version: 9) do
     t.integer "network_id"
     t.string "day"
     t.string "season"
+<<<<<<< HEAD
     t.string "genre"
+=======
+    t.string "genres"
+>>>>>>> 9a87722cf7aeb28f6416e88c413b12283fd07813
   end
 
 end
