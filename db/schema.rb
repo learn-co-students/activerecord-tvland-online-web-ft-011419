@@ -30,7 +30,6 @@ ActiveRecord::Schema.define(version: 8) do
 
   create_table "shows", force: :cascade do |t|
     t.string "name"
-    t.string "genre"
     t.integer "network_id"
   end
 
